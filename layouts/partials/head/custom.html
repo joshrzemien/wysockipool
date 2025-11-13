@@ -1,0 +1,45 @@
+<link rel="icon" type="image/png" href="{{ "images/logo3.png" | relURL }}" />
+<link rel="apple-touch-icon" href="{{ "images/logo3.png" | relURL }}" />
+<meta property="og:image" content="{{ "images/logo3.png" | absURL }}" />
+<meta name="twitter:image" content="{{ "images/logo3.png" | absURL }}" />
+
+<style>
+/* Custom styles for clickable service icons on homepage */
+a .box.highlight {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a:hover .box.highlight {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+a .box.highlight .icon {
+    transition: all 0.3s ease;
+}
+
+a:hover .box.highlight .icon {
+    color: #4acaa8;
+    transform: scale(1.15);
+}
+
+a .box.highlight h3 {
+    transition: color 0.3s ease;
+    margin-bottom: 0;
+}
+
+a:hover .box.highlight h3 {
+    color: #4acaa8;
+}
+
+/* Condense the highlight boxes when there's no content */
+.box.highlight:not(:has(p)) {
+    padding: 2em 1.5em;
+    min-height: auto;
+}
+
+.box.highlight .icon {
+    margin-bottom: 0.75em;
+}
+</style>

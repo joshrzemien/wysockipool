@@ -1,0 +1,30 @@
+services:
+  - id: pool-opening
+    title: Pool Opening
+    icon: fa-water
+    content: >
+      We offer luxury pool openings and closings for commercial and residential pools. Opening consists of removing the water and debris off of tarp style covers, as well as a quick brush for safety covers to ensure minimal debris and water from the cover enter the cavity of the pool. We then remove all necessary winterization plugs and reinstall the necessary plugs for the equipment. Depending on water level we attempt startup and administer startup chemical (priming pump, lighting pilot if applicable for heater). From there a general observation of operation as well as communication of anything that could need service or upkeep in the future. Vacuuming can be performed at opening for additional cost.
+
+  - id: pool-closing
+    title: Pool Closing
+    icon: fa-snowflake
+    content: >
+      We offer luxury pool closings for commercial and residential pools. Closing consists of lowering the water level to the necessary height. We then add winterizing chemicals, after that we winterize and plug off the necessary plumbing as well as takeout the necessary plugs from the equipment. Vacuum can be performed for additional cost. And then the cover is put securely on the pool. Request a quote button.
+
+  - id: weekly-chemical-service
+    title: Weekly Chemical Service
+    icon: fa-flask
+    content: >
+      On site water testing as well as treatment. This means no more waiting at the pool store to have your water tested, no need to keep a stockpile of pool chemicals, and most importantly no more spills or lugging stinky chlorine around. We test free chlorine,combined chlorine, ph, alkalinity, calcium hardness, CYA, and salt for saltwater pools.  
+
+  - id: sand-filter-maintenance-replacement
+    title: Sand Filter Maintenance/Replacement
+    icon: fa-cogs
+    content: >
+      The manufacturer recommends Replacing sand every 3-5 years to ensure the filter is operating efficiently as well as keeping your water crystal clear. Replacing the sand is only half the job. As well as taking the sand with us we also replace the internals of the filter to ensure the sand doesn't blow through back into the pool.
+
+  - id: pvc-repair-equipment-remodel
+    title: PVC Repair & Equipment Remodel
+    icon: fa-cogs
+    content: >
+      As simple as installing and in line chlorinator or as tough as plumbing a new pump or updating an outdated equipment pad we can handle it all with focus on serviceability, flow, and clean visuals.

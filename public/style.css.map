@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/zman/workspace/wysockipool",
+	"sourceRoot": "/home/zman/Projects/wysockipool",
 	"sources": [
 		"themes/hugo-arcana/assets/sass/main.scss",
 		"themes/hugo-arcana/assets/sass/libs/_vars.scss",

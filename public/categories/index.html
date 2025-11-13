@@ -5,7 +5,51 @@
 <title>Categories | Wysocki Pool</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/style.css" /><link rel="icon" type="image/png" href="/images/logo3.png" />
+<link rel="apple-touch-icon" href="/images/logo3.png" />
+<meta property="og:image" content="http://localhost:1313/images/logo3.png" />
+<meta name="twitter:image" content="http://localhost:1313/images/logo3.png" />
+
+<style>
+ 
+a .box.highlight {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a:hover .box.highlight {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+a .box.highlight .icon {
+    transition: all 0.3s ease;
+}
+
+a:hover .box.highlight .icon {
+    color: #4acaa8;
+    transform: scale(1.15);
+}
+
+a .box.highlight h3 {
+    transition: color 0.3s ease;
+    margin-bottom: 0;
+}
+
+a:hover .box.highlight h3 {
+    color: #4acaa8;
+}
+
+ 
+.box.highlight:not(:has(p)) {
+    padding: 2em 1.5em;
+    min-height: auto;
+}
+
+.box.highlight .icon {
+    margin-bottom: 0.75em;
+}
+</style>
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Categories">
@@ -25,6 +69,10 @@
 
     <nav id="nav">
         <ul>
+                <li class="">
+                    <a href="/">Home</a>
+                <li class="">
+                    <a href="/services">Services</a>
         </ul>
     </nav>
 </div>
@@ -56,7 +104,7 @@
         <div class="row">
                 <section class="col-6 col-6-narrower col-12-mobilep">
                     <h3>Services</h3>
-                    <ul class="links"><li><a href="#">Pool Maintenance</a><li><a href="#">Pool Cleaning</a><li><a href="#">Pool Repair</a>
+                    <ul class="links"><li><a href="/services#pool-opening">Pool Opening</a><li><a href="/services#pool-closing">Pool Closing</a><li><a href="/services#weekly-chemical-service">Weekly Chemical Service</a><li><a href="/services#sand-filter-maintenance-replacement">Sand Filter Maintenance</a><li><a href="/services#pvc-repair-equipment-remodel">Pvc Repair/Equipment Remodel</a>
                     </ul>
                 </section>
             <section class="col-6 col-12-narrower">

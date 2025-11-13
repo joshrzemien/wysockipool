@@ -1,0 +1,24 @@
+<section class="wrapper style1">
+    <div class="container">
+        {{- $item_cols := (div 12 (.item.items_per_row | default 3)) }}
+        {{- $total_items := len .item.items }}
+        {{- $items_per_row := .item.items_per_row | default 3 }}
+        {{- $is_odd_row := mod $total_items $items_per_row }}
+        <div class="row gtr-200{{ if and (gt $is_odd_row 0) (lt $is_odd_row $items_per_row) }} aln-center{{ end }}">
+            {{- range .item.items }}
+                {{- $serviceId := .title | urlize }}
+                <section class="col-{{ $item_cols }} col-12-narrower">
+                    <a href="{{ "services" | relURL }}#{{ $serviceId }}" style="text-decoration: none; color: inherit;">
+                        <div class="box highlight">
+                            <i class="icon solid major {{ .icon }}"></i>
+                            <h3>{{ .title }}</h3>
+                            {{- if .content }}
+                                <p>{{ .content | markdownify }}</p>
+                            {{- end }}
+                        </div>
+                    </a>
+                </section>
+            {{- end }}
+        </div>
+    </div>
+</section>

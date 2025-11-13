@@ -3,14 +3,14 @@ banner:
   contents: "**Wysocki Pool:** _Professional pool services and maintenance_"
   button:
     contents: "Our Services"
-    url: "#services"
-  carousel:
-    enable: true
-    auto_cycle: true
-    cycle_interval: 5000  # milliseconds
-    images:
-      - "images/pool1.png"
-      - "images/pool2.png"
+    url: "/services"
+#  carousel:
+#    enable: true
+#    auto_cycle: true
+#    cycle_interval: 5000  # milliseconds
+#    images:
+#      - "images/pool1.png"
+#      - "images/pool2.png"
 
 items:
   - type: highlights
@@ -18,24 +18,14 @@ items:
     items:
       - title: Pool Opening
         icon: fa-water
-        content: >
-          Opening includes removing debris from covers, priming the pump, and ensuring everything runs smoothly. We also check for any future service needs.
       - title: Pool Closing
         icon: fa-snowflake
-        content: >
-          Closing involves lowering water levels, adding winterizing chemicals, plugging the plumbing, and securing the cover for the season.
       - title: Weekly Chemical Service
         icon: fa-flask
-        content: >
-          On-site water testing and chemical balancing, ensuring your pool stays perfectly balanced without the hassle of buying chemicals.
-      - title: Sand Filter Maintenance
+      - title: Sand Filter Maintenance/Replacement
         icon: fa-cogs
-        content: >
-          We replace sand and filter internals every 3-5 years to ensure optimal performance and clear water.
       - title: PVC Repair & Equipment Remodel
         icon: fa-cogs
-        content: >
-          We handle everything from installing chlorinators to plumbing new pumps, focusing on serviceability, flow, and clean visuals.
 
   - type: heading
     heading: Professional Pool Services
