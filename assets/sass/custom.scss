@@ -1,3 +1,67 @@
+/* ===== HEADER SPACING CONTROLS ===== */
+/*
+   Layout: [browser top] -> (A) -> [logo + text] -> (B) -> [navigation]
+
+   A = padding-top on #header
+   B = padding-bottom on #header h1
+
+   For equal visual spacing, A and B should be equal
+*/
+
+#header {
+    /* ADJUST THIS: Space from top of browser to the logo/text row */
+    padding-top: .75em !important;
+    padding-bottom: 0 !important;
+}
+
+#header h1 {
+    /* ADJUST THIS: Space from the logo/text row down to navigation bar */
+    padding-bottom: .75em !important;
+    padding-top: 0 !important;
+}
+
+#header #logo img {
+    /* ADJUST THIS: Horizontal space between logo and text */
+    margin-right: 0.15em;
+
+    /* Logo sizing - adjust if needed */
+    max-height: 120px;
+    max-width: 120px;
+
+    /* Keep these as-is */
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* Responsive logo sizing */
+@media screen and (max-width: 1280px) {
+    #header #logo img {
+        max-height: 100px;
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #header #logo img {
+        max-height: 80px;
+        max-width: 80px;
+    }
+}
+
+/* Mobile titleBar logo styling */
+@media screen and (max-width: 840px) {
+    #titleBar .title a img {
+        height: 36px;
+        width: 36px;
+        padding: 4px;
+        vertical-align: middle;
+        object-fit: contain;
+    }
+}
+
 /* Custom carousel banner styles */
 
 .carousel-banner {
