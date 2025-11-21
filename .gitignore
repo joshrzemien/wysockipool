@@ -1,2 +1,9 @@
-public
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo lock file
+.hugo_build.lock
+
+# Custom exclusions
 static/images/unused
