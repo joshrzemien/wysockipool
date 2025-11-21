@@ -3,7 +3,7 @@ services:
     title: Pool Opening
     icon: fa-water
     content: >
-      We offer luxury pool openings and closings for commercial and residential pools. Opening consists of removing the water and debris off of tarp style covers, as well as a quick brush for safety covers to ensure minimal debris and water from the cover enter the cavity of the pool. We then remove all necessary winterization plugs and reinstall the necessary plugs for the equipment. Depending on water level we attempt startup and administer startup chemical (priming pump, lighting pilot if applicable for heater). From there a general observation of operation as well as communication of anything that could need service or upkeep in the future. Vacuuming can be performed at opening for additional cost.
+      We offer luxury pool openings for commercial and residential pools. Opening consists of removing the water and debris off of tarp style covers, as well as a quick brush for safety covers to ensure minimal debris and water from the cover enter the cavity of the pool. We then remove all necessary winterization plugs and reinstall the necessary plugs for the equipment. Depending on water level we attempt startup and administer startup chemical (priming pump, lighting pilot if applicable for heater). From there a general observation of operation as well as communication of anything that could need service or upkeep in the future. Vacuuming can be performed at opening for additional cost.
 
   - id: pool-closing
     title: Pool Closing
