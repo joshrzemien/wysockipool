@@ -4,12 +4,12 @@ banner:
   button:
     contents: "Our Services"
     url: "/services"
-#  carousel:
-#    enable: true
+  carousel:
+    enable: true
 #    auto_cycle: true
 #    cycle_interval: 5000  # milliseconds
-#    images:
-#      - "images/pool1.png"
+    images:
+      - "images/pool1.png"
 #      - "images/pool2.png"
 
 items:
