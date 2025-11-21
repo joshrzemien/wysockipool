@@ -9,7 +9,7 @@ banner:
 #    auto_cycle: true
 #    cycle_interval: 5000  # milliseconds
     images:
-      - "images/pool1.png"
+      - "/images/pool1.webp"
 #      - "images/pool2.png"
 
 items:

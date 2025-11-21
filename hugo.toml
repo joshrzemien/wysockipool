@@ -1,4 +1,4 @@
-baseURL = 'http://wysockipoolservices.com/'
+baseURL = 'https://wysockipoolservices.com/'
 languageCode = 'en-us'
 title = 'Wysocki Elite Pool Services'
 theme = 'hugo-arcana'
