@@ -1,8 +1,8 @@
 baseURL = 'http://wysockipoolservices.com/'
 languageCode = 'en-us'
-title = 'Wysocki Pool'
+title = 'Wysocki Elite Pool Services'
 theme = 'hugo-arcana'
-copyright = '© Wysocki Pool. All rights reserved'
+copyright = '© Wysocki Elite Pool Services. All rights reserved'
 
 defaultContentLanguage = 'en'
 

@@ -1,6 +1,6 @@
 banner:
   enable: true
-  contents: "**Wysocki Pool:** _Professional pool services and maintenance_"
+  contents: "**Wysocki Elite Pool Services:** _Professional pool services and maintenance_"
   button:
     contents: "Our Services"
     url: "/services"
