@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'http://wysockipoolservices.com/'
 languageCode = 'en-us'
 title = 'Wysocki Pool'
 theme = 'hugo-arcana'
@@ -16,20 +16,25 @@ defaultContentLanguage = 'en'
     url = "/services"
     weight = 2
 
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 3
+
 [params]
     description = 'Wysocki Pool - Professional pool services'
     show_post_dates = false
 
-    [[params.social]]
-        title = "Facebook"
-        icon = "fa-facebook-f"
-        url = "#"
-    [[params.social]]
-        title = "Instagram"
-        icon = "fa-instagram"
-        url = "#"
-
     [params.footer]
+        [[params.footer.links]]
+            header = "Contact"
+        [[params.footer.links.links]]
+            title = "Phone: 734.278.8954"
+            url = "tel:7342788954"
+        [[params.footer.links.links]]
+            title = "wysockipoolservices@gmail.com"
+            url = "mailto:wysockipoolservices@gmail.com"
+
         [[params.footer.links]]
             header = "Services"
         [[params.footer.links.links]]
@@ -43,12 +48,12 @@ defaultContentLanguage = 'en'
             url = "/services#weekly-chemical-service"
         [[params.footer.links.links]]
             title = "Sand Filter Maintenance"
-            url = "/services#sand-filter-maintenance-replacement"
+            url = "/services#sand-filter-maintenance%2freplacement"
         [[params.footer.links.links]]
             title = "Pvc Repair/Equipment Remodel"
             url = "/services#pvc-repair-equipment-remodel"
 
         [params.footer.contact_form]
-            enabled = true
+            enabled = false
             header = "Get In Touch"
             action = ""

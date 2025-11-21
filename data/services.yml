@@ -9,7 +9,7 @@ services:
     title: Pool Closing
     icon: fa-snowflake
     content: >
-      We offer luxury pool closings for commercial and residential pools. Closing consists of lowering the water level to the necessary height. We then add winterizing chemicals, after that we winterize and plug off the necessary plumbing as well as takeout the necessary plugs from the equipment. Vacuum can be performed for additional cost. And then the cover is put securely on the pool. Request a quote button.
+      We offer luxury pool closings for commercial and residential pools. Closing consists of lowering the water level to the necessary height. We then add winterizing chemicals, after that we winterize and plug off the necessary plumbing as well as take out the necessary plugs from the equipment. Vacuum can be performed for additional cost. And then the cover is put securely on the pool.
 
   - id: weekly-chemical-service
     title: Weekly Chemical Service
@@ -17,7 +17,7 @@ services:
     content: >
       On site water testing as well as treatment. This means no more waiting at the pool store to have your water tested, no need to keep a stockpile of pool chemicals, and most importantly no more spills or lugging stinky chlorine around. We test free chlorine,combined chlorine, ph, alkalinity, calcium hardness, CYA, and salt for saltwater pools.  
 
-  - id: sand-filter-maintenance-replacement
+  - id: sand-filter-maintenance/replacement
     title: Sand Filter Maintenance/Replacement
     icon: fa-cogs
     content: >

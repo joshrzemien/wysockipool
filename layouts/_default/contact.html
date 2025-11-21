@@ -1,0 +1,101 @@
+{{ define "main" }}
+    <header>
+        <h2>{{ .Title }}</h2>
+    </header>
+
+    {{- .Content }}
+
+    <section class="wrapper style1">
+        <div class="container">
+            <div class="row">
+                <section class="col-12">
+                    <form action="https://formkeep.com/f/e9284d86764c"
+                          accept-charset="UTF-8"
+                          enctype="multipart/form-data"
+                          method="POST">
+
+                        <div class="row gtr-50">
+                            <div class="col-6 col-12-mobile">
+                                <input type="text" name="name" id="name" placeholder="Name" required />
+                            </div>
+                            <div class="col-6 col-12-mobile">
+                                <input type="email" name="email" id="email" placeholder="Email" required />
+                            </div>
+                            <div class="col-6 col-12-mobile">
+                                <input type="text" name="phone" id="phone" placeholder="Phone Number" required />
+                            </div>
+                            <div class="col-6 col-12-mobile">
+                                <input type="text" name="address" id="address" placeholder="Address" required />
+                            </div>
+                            <div class="col-12">
+                                <select name="service" id="service" required>
+                                    <option value="">Select a Service</option>
+                                    {{- with .Site.Data.services }}
+                                        {{- range .services }}
+                                            <option value="{{ .title }}">{{ .title }}</option>
+                                        {{- end }}
+                                    {{- end }}
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-12" id="other-service-container" style="display: none;">
+                                <input type="text" name="other_service" id="other_service" placeholder="Please specify other service" />
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" id="message" placeholder="Additional Information (optional)" rows="6"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <ul class="actions">
+                                    <li><input type="submit" class="button alt" value="Send Message" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background: #fff;
+            border: solid 1px #d3d3d3;
+            border-radius: 5px;
+            color: #474747;
+            display: block;
+            outline: 0;
+            padding: 0.75em;
+            text-decoration: none;
+            width: 100%;
+            line-height: 1em;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 0.75em center;
+            background-size: 1em;
+            padding-right: 2.5em;
+        }
+        select:focus {
+            border-color: #ce1b28;
+        }
+    </style>
+
+    <script>
+        // Show/hide the "Other" text field based on the service selection
+        document.getElementById('service').addEventListener('change', function() {
+            var otherContainer = document.getElementById('other-service-container');
+            var otherInput = document.getElementById('other_service');
+
+            if (this.value === 'Other') {
+                otherContainer.style.display = 'block';
+                otherInput.required = true;
+            } else {
+                otherContainer.style.display = 'none';
+                otherInput.required = false;
+                otherInput.value = '';
+            }
+        });
+    </script>
+{{ end }}

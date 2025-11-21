@@ -35,4 +35,4 @@ items:
     contents: Ready to keep your pool in perfect condition?
     button:
       contents: Contact Us Today
-      url: "#contact"
+      url: "/contact"
